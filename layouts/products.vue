@@ -9,12 +9,14 @@
                         <li>
                         <NuxtLink to="/about">About</NuxtLink>
                         </li>
-                        <li>
-                        <NuxtLink to="/products">Products</NuxtLink>
-                        </li>
                 </ul>
             </nav>
         </header>
+
+        <div>
+            <slot />
+        </div>
+
     </div>
 </template>
 
@@ -23,5 +25,6 @@
 </script>
 
 <style scoped>
+
 
 </style>
