@@ -3,13 +3,17 @@
 
         <h2>Products</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero quibusdam repudiandae sint nobis veritatis ullam non quam architecto odit omnis consequatur aut facilis at impedit, dignissimos, sunt consectetur est.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero quibusdam repudiandae sint nobis veritatis ullam non quam architecto odit omnis consequatur aut facilis at impedit, dignissimos, sunt consectetur est.</p>
+        {{count}}
+
 
     </div>
 </template>
 
 <script setup>
+
+const { data: count } = await useFetch('https://dummyjson.com/products/1')
+
+console.log(count)
 
     definePageMeta({
         layout: 'products'
