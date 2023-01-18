@@ -1,15 +1,17 @@
 <template>
   <div>
-    <Header />
-    <div>
+    <LayoutsNavbar />
+    <div class="container">
       <slot />
     </div>
 
-    <Footer />
   </div>
 </template>
 
 <script setup>
+
+// import Navbar from "~/components/layouts/navbar.vue";
+// import Footer from "~/components/layouts/footer.vue";
 
 </script>
 
