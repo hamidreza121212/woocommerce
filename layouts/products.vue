@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Header></Header>
 
         <div>
             <slot class="container p-5" />
