@@ -1,30 +1,19 @@
 <template>
-  <div class="bg-indigo-900 text-white" :class="{ 'absolute w-full h-screen top-0 left-0': menu }">
-    <div class="container sm:mx-auto flex flex-wrap">
-      <!-- Desktop nav list -->
-      <nav class="hidden sm:block">
-        <ul class="flex">
-          <li v-for="(item, index) in items" :key="index">
-            <a :href="item.href" class="hover:bg-green-500 p-6 block">
-              {{ item.title }}
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="ml-auto sm:hidden p-6" @click="menu = !menu">
-        <i class="fa fa-bars"></i>
+  <div class="h-12 bg-indigo-900 text-white" :class="{ 'absolute w-full h-screen top-0 left-0': menu }">
+
+    <div class="container mx-auto">
+
+
+      <div class="grid grid-rows-3 grid-flow-col gap-4">
+        <div class="row-start-1 row-span-1">01</div>
+        <div class="row-start-1 row-end-4">02</div>
       </div>
-    </div> 
-    <!-- Mobile nav list -->
-    <nav v-show="menu" class="w-full">
-      <ul class="flex flex-col text-center">
-        <li v-for="(item, index) in items" :key="index">
-          <a :href="item.href" class="hover:bg-green-500 p-6 block">
-            {{ item.title }}
-          </a>
-        </li>
-      </ul>
-    </nav>
+
+    </div>
+
+
+
+
   </div>
 </template>
 
