@@ -3,7 +3,7 @@
         <Header></Header>
 
         <div>
-            <slot class="container p-5" />
+            <slot />
         </div>
 
     </div>

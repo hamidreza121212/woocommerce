@@ -1451,7 +1451,7 @@ Header Style 3
 
 .banner .category-name a {
   color: #333;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .banner .category-name a:hover {
@@ -1547,7 +1547,7 @@ Banner style 2
 }
 
 .banner-style-2 .banner-content .cd-words-wrapper b {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 700;
 }
 
