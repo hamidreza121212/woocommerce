@@ -1,6 +1,10 @@
 <template>
     <div>
 
+        <nav>
+            <h4>test navbat</h4>
+        </nav>
+
         <div>
             <slot />
         </div>
