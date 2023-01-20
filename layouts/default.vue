@@ -3,7 +3,12 @@
     <LayoutsNavbar />
     <div class="container">
       <slot />
+
+      
     </div>
+
+    <LayoutsFooter />
+
 
   </div>
 </template>
