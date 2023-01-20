@@ -66,14 +66,39 @@
   <nav class="sticky h-20 md:h-32 top-0 w-full bg-white py-8 px-10 shadow-lg">
     <div class="flex items-center justify-between">
       <div>
-        <ul class="flex space-x-8">
+        <ul class="flex">
           <!-- Header logo -->
           <li>
-            <img src="~/assets/images/logo.png" class="w-28 md:w-40 md:h-14" />
+            <img src="~/assets/images/logo.png" class="w-24 md:w-40 md:h-14" />
           </li>
           <!-- Header logo End -->
-          <li class="hidden md:block">
-            <h1>kj</h1>
+
+          <li class="hidden lg:block">
+            <button class="text-gray-700 p-5 rounded-md font-medium">
+              <span>
+                <i class="fa fa-th text-gray-900"></i>
+              </span>
+              Categories
+            </button>
+          </li>
+
+          <li class="hidden lg:block">
+            <form>
+              <div class="relative">
+                <input
+                  type="search"
+                  id="default-search"
+                  class="w-full p-4 text-sm text-gray-900 border rounded-lg bg-gray-50 dark:placeholder-gray-400 dark:text-gray-800"
+                  placeholder="Search Logos..."
+                  required
+                />
+                <a
+                  role="button"
+                  class="fa fa-search fa-lg text-gray-400 absolute right-2.5 bottom-5 hover:text-gray-900"
+                >
+                </a>
+              </div>
+            </form>
           </li>
         </ul>
       </div>
@@ -99,7 +124,7 @@
       <div class="hidden lg:block">
         <ul class="flex space-x-8">
           <li v-for="menu in leftMenu" v-bind:key="menu.id">
-            <nuxt-link :to="menu.link" class="font-bold hover:text-red-500">
+            <nuxt-link :to="menu.link" class="font-medium hover:text-red-500">
               {{ menu.name }}
             </nuxt-link>
           </li>
