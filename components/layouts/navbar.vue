@@ -63,7 +63,7 @@
   </div>
 
   <!-- main header -->
-  <nav class="sticky h-20 md:h-32 top-0 w-full bg-white py-8 px-10 shadow-lg">
+  <nav class="sticky h-20 md:h-24 top-0 w-full bg-white py-4 px-10 shadow-lg">
     <div class="flex items-center justify-between">
       <div>
         <ul class="flex">
