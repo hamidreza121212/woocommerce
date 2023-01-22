@@ -39,12 +39,12 @@
               <a href="#"><i class="fa fa-user-alt"></i></a>
             </li>
             <li>
-              <button
-                href="#"
+              <nuxt-link
                 class="text-gray-400 hover:text-white px-2 rounded-md text-sm font-medium"
+                to="/authorization"
               >
                 Login
-              </button>
+              </nuxt-link>
             </li>
 
             <li class="px-1">|</li>

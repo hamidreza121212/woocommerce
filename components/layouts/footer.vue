@@ -39,13 +39,13 @@
           <div v-for="item in MainDetail" :key="item.id">
 
 
-            <h7 class="font-medium mb-4 flex justify-center md:justify-start">
+            <h7 class="font-medium mb-2 flex justify-center md:justify-start">
               <span>
                 <i :class="item.icon" class="mr-2"></i>
               </span>
               {{ item.name }}
             </h7>
-            <p class="flex text-gray-400 items-center justify-center md:justify-start mb-4">
+            <p class="flex text-gray-400 items-center justify-center md:justify-start mb-3">
               {{ item.content }}
             </p>
           </div>

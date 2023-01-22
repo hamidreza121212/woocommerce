@@ -1,10 +1,9 @@
 <template>
   <div>
     <LayoutsNavbar />
-    <div class="container">
-      <slot />
 
-      
+    <div>
+      <slot />
     </div>
 
     <LayoutsFooter />
