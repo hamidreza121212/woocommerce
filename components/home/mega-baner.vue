@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <h1>register</h1>
+    <section class="">
+        <h1>mega baner</h1>
 
-    </div>
+    </section>
 </template>
 
 <script setup>

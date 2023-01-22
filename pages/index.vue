@@ -1,6 +1,8 @@
 <template>
     <div>
 
+        <HomeMegaBaner />
+
         <h2>Home</h2>
         <h2>Home</h2>
         <h2>Home</h2>
