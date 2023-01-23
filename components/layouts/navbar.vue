@@ -40,7 +40,7 @@
             </li>
             <li>
               <nuxt-link
-                class="text-gray-400 hover:text-white px-2 rounded-md text-sm font-medium"
+                class="delay-200 text-gray-400 hover:text-white px-2 rounded-md text-sm font-medium"
                 to="/authorization"
               >
                 Login
@@ -51,7 +51,7 @@
             <li>
               <button
                 href="#"
-                class="text-gray-400 hover:text-white px-2 rounded-md text-sm font-medium"
+                class="delay-200 text-gray-400 hover:text-white px-2 rounded-md text-sm font-medium"
               >
                 register
               </button>
@@ -63,10 +63,10 @@
   </div>
 
   <!-- main header -->
-  <nav class="sticky h-20 md:h-24 top-0 w-full bg-white py-4 px-10 shadow-lg">
+  <nav class="sticky h-20 md:h-24 top-0 w-full bg-white py-4 px-10 shadow-lg z-50">
     <div class="flex items-center justify-between">
       <div>
-        <ul class="flex">
+        <ul class="flex ">
           <!-- Header logo -->
           <li>
             <img src="~/assets/images/logo.png" class="w-24 md:w-40 md:h-14" />
@@ -124,7 +124,7 @@
       <div class="hidden lg:block">
         <ul class="flex space-x-8">
           <li v-for="menu in leftMenu" v-bind:key="menu.id">
-            <nuxt-link :to="menu.link" class="font-medium hover:text-red-500">
+            <nuxt-link :to="menu.link" class="font-medium hover:text-red-500 delay-200">
               {{ menu.name }}
             </nuxt-link>
           </li>

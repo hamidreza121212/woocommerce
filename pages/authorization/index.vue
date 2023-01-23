@@ -1,8 +1,8 @@
 <template>
     <section class="bg-gray-50">
-        <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen">
+        <div class="grid grid-cols-12 md:grid-cols-12 items-center justify-center px-6 py-8 mx-auto md:h-screen">
 
-            <div class="w-full bg-white rounded-xl shadow-2xl hover:shadow-xl ring-1 md:mt-0 sm:max-w-md xl:p-0">
+            <div class="col-span-12 sm:col-span-10 sm:col-start-3 md:col-span-4 md:col-start-2  w-full bg-white rounded-xl shadow-2xl hover:shadow-xl ring-1 md:mt-0 sm:max-w-md xl:p-0">
                 <div class="p-6 space-y-4 md:space-y-6 sm:p-8 text-sm">
                     <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
                         Login
@@ -45,6 +45,11 @@
                         </p>
                     </form>
                 </div>
+            </div>
+
+            <div class="col-span-12 col-start-3 md:col-span-4 md:col-start-8 mt-12 md:mt-0">
+            <img src="~/assets/svg/illustration.svg" alt="">
+
             </div>
         </div>
     </section>
