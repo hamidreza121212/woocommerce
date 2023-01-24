@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:h-screen my-bg">
+    <section class=" my-bg">
         <div class="grid grid-cols-1 lg:grid-cols-11 gap-4 lg:py-28 py-10">
 
             <div class="lg:text-start text-center lg:col-start-2 lg:col-span-4">
