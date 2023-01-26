@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
     <section class="my-bg relative">
+=======
+    <section class=" my-bg">
+>>>>>>> a28052f4a90b022bfab88f3803f55bedcdbec62b
         <div class="grid grid-cols-1 lg:grid-cols-11 gap-4 lg:py-28 py-10">
 
             <div class="lg:text-start text-center lg:col-start-2 lg:col-span-4">

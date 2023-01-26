@@ -1,15 +1,15 @@
 <template>
     <section class="bg-gray-50">
-        <div class="grid grid-cols-12 md:grid-cols-12 items-center justify-center px-6 py-8 mx-auto md:h-screen">
+        <div class="grid grid-cols-12 md:grid-cols-12 items-center justify-center py-8 mx-auto md:h-screen">
 
-            <div class="col-span-12 sm:col-span-10 sm:col-start-3 md:col-span-4 md:col-start-2  w-full bg-white rounded-xl shadow-2xl hover:shadow-xl ring-1 md:mt-0 sm:max-w-md xl:p-0">
+            <div class="col-span-12 sm:col-span-10 sm:col-start-3 md:col-span-4 md:col-start-2 w-full bg-white rounded-xl shadow-2xl hover:shadow-xl ring-1 md:mt-0 sm:max-w-md xl:p-0">
                 <div class="p-6 space-y-4 md:space-y-6 sm:p-8 text-sm">
-                    <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
+                    <h1 class="text-xl text-center font-bold leading-tight tracking-tight text-gray-900 md:text-2xl mt-5">
                         Login
                     </h1>
-                    <form class="space-y-4 md:space-y-6" action="#">
+                    <form class="space-y-5 md:space-y-10" action="#">
                         <div>
-                            <label for="email" class="block mb-2 text-sm font-bold text-gray-400">Username or
+                            <label for="email" class="block mb-3 text-sm font-bold text-gray-400">Username or
                                 Email As Address</label>
                             <input type="email" name="email" id="email"
                                 class="bg-gray-50 border border-gray-300 sm:text-sm rounded-lg focus:ring-primary-400 focus:border-primary-600 block w-full p-2.5"

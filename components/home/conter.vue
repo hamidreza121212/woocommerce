@@ -1,11 +1,10 @@
 <template>
     <div>
-
         <div
-            class="grid grid-cols-1 lg:grid-cols-12 bg-illustration relative z-1 text-center text-white font-bold text-xl">
+            class="grid grid-cols-1 lg:grid-cols-12 bg-illustration z-1 text-center text-white font-bold text-xl bg-inherit">
 
-            <div class="mx-2 lg:col-start-2 lg:col-span-10 rounded-2xl overflow-hidden shadow-lg bg-conter p-4">
-                <div class="grid sm:grid-cols-2 md:grid-cols-4">
+            <div class="mx-2 lg:col-start-2 lg:col-span-10 rounded-2xl overflow-hidden shadow-lg bg-conter p-5 lg:h-52 relative">
+                <div class="grid sm:grid-cols-2 md:grid-cols-4 py-9">
 
                     <div class="text-lx md:text-3xl mt-3">
                         <vue3-autocounter ref='counter' :startAmount='0' :endAmount='2000' :duration='3' separator='' 
@@ -33,6 +32,8 @@
 
             </div>
         </div>
+
+        <div class="h-28 bg-blue-500"></div>
 
     </div>
 </template>
