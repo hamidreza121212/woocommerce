@@ -1,22 +1,35 @@
 <template>
     <div>
 
-        <h2>Detail of Products {{ slug }}</h2>
+        <!-- <h2>Detail of Products {{ slug }}</h2> -->
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero quibusdam repudiandae sint nobis veritatis ullam non quam architecto odit omnis consequatur aut facilis at impedit, dignissimos, sunt consectetur est.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero quibusdam repudiandae sint nobis veritatis ullam non quam architecto odit omnis consequatur aut facilis at impedit, dignissimos, sunt consectetur est.</p>
+        <div>
+            {{ filtersList }}
+        </div>
+
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero quibusdam repudiandae sint nobis
+            veritatis ullam non quam architecto odit omnis consequatur aut facilis at impedit, dignissimos, sunt
+            consectetur est.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit libero quibusdam repudiandae sint nobis
+            veritatis ullam non quam architecto odit omnis consequatur aut facilis at impedit, dignissimos, sunt
+            consectetur est.</p>
 
     </div>
 </template>
 
-<script setup>
+<script>
+import { useFiltersStore } from '~/store/filters'
 
-const { slug } = useRoute().params
+export default defineComponent({
+  setup() {
+    const filtersStore = useFiltersStore()
+    const filtersList = filtersStore.filtersList
 
-definePageMeta({
-        layout: 'products'
-    })
-
+    return { filtersList }
+  },
+})
 </script>
 
 <style scoped>

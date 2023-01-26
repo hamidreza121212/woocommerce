@@ -1,5 +1,5 @@
 <template>
-    <section class="lg:h-screen my-bg">
+    <section class="my-bg relative">
         <div class="grid grid-cols-1 lg:grid-cols-11 gap-4 lg:py-28 py-10">
 
             <div class="lg:text-start text-center lg:col-start-2 lg:col-span-4">
@@ -7,7 +7,7 @@
                 <h1 class="text-white text-2xl lg:text-4xl font-bold mt-5 mb-5">
                     Upgrade your learning Skills &amp; Upgrade your life
                 </h1>
-                <h2 class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h2 class="text-gray-400 p-5 lg:p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolores ullam libero magni reiciendis quam ipsa blanditiis, facilis velit eaque illo?
                 </h2>
                 <div class="mt-5">

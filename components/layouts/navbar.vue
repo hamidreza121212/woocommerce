@@ -202,7 +202,7 @@
 
           <li>
             <nuxt-link
-              to="/login"
+              to="/authorization"
               @click="isOpen = false"
               class="my-8 w-full text-center font-medium cta inline-block bg-blue-900 hover:bg-blue-600 px-3 py-2 rounded text-white"
               >Sign in</nuxt-link
@@ -235,10 +235,10 @@ export default {
       leftMenu: [
         { id: "1", name: "Home", link: "/" },
         { id: "2", name: "About", link: "/about" },
-        { id: "3", name: "Courses", link: "/sdf" },
-        { id: "4", name: "Pages", link: "/sdf#" },
-        { id: "4", name: "Blog", link: "/sdf" },
-        { id: "4", name: "Contact", link: "/sdf" },
+        { id: "3", name: "Courses", link: "/#" },
+        { id: "4", name: "Pages", link: "/##" },
+        { id: "4", name: "Blog", link: "/#" },
+        { id: "4", name: "Contact", link: "/#" },
       ],
       SocialNetworkLink: [
         { id: "1", name: "fab fa-facebook-f", link: "/#" },

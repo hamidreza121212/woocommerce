@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^3.0.2",
+    "@pinia/nuxt": "^0.4.6",
+    "pinia": "^2.0.29",
     "vue3-autocounter": "^1.0.6"
   }
 }

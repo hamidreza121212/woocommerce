@@ -39,12 +39,12 @@
           <div v-for="item in MainDetail" :key="item.id">
 
 
-            <h7 class="font-medium mb-2 flex justify-center md:justify-start">
+            <h6 class="font-medium mb-2 flex justify-center md:justify-start">
               <span>
                 <i :class="item.icon" class="mr-2"></i>
               </span>
               {{ item.name }}
-            </h7>
+            </h6>
             <p class="flex text-gray-400 items-center justify-center md:justify-start mb-3">
               {{ item.content }}
             </p>
@@ -99,14 +99,14 @@ export default {
       Explore: [
         { id: "1", name: "About us", link: "/" },
         { id: "2", name: "Contact us", link: "/about" },
-        { id: "3", name: "Services", link: "/sdf" },
-        { id: "4", name: "Support", link: "/sdf#" },
+        { id: "3", name: "Services", link: "/#" },
+        { id: "4", name: "Support", link: "/#" },
       ],
       Programs: [
         { id: "1", name: "SEO Business", link: "/" },
-        { id: "2", name: "Digital Marketing", link: "/about" },
-        { id: "3", name: "Graphic Design", link: "/sdf" },
-        { id: "4", name: "Social Marketing", link: "/sdf#" },
+        { id: "2", name: "Digital Marketing", link: "/#" },
+        { id: "3", name: "Graphic Design", link: "/#" },
+        { id: "4", name: "Social Marketing", link: "/#" },
       ],
       Links: [
         { id: "1", name: "News & Blogs", link: "/#" },
